@@ -12,7 +12,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Twig\Environment;
 
 class QuestionController extends AbstractController
 {
@@ -81,14 +80,6 @@ Does anyone have a spell to call your pants back?
             $this->logger->info('We are in debug mode!');
         }
 
-        // $repository = $entityManager->getRepository(Question::class);
-        // /** @var Question|null $question */
-        // $question = $repository->findOneBy(['slug' => $slug]);
-        // if (!$question) {
-        //     throw $this->createNotFoundException(
-        //         sprintf('no question found for slug "%s"', $slug)
-        //     );
-        // }
         $answers = [
             'Make sure your cat is sitting `purrrfectly` still 🤣',
             'Honestly, I like furry shoes better than MY cat',
