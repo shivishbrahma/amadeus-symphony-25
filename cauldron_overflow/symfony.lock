@@ -99,6 +99,9 @@
     "knplabs/knp-markdown-bundle": {
         "version": "1.8.1"
     },
+    "knplabs/knp-time-bundle": {
+        "version": "v1.15.0"
+    },
     "laminas/laminas-code": {
         "version": "4.0.0"
     },
@@ -161,6 +164,18 @@
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
+    },
+    "sensio/framework-extra-bundle": {
+        "version": "5.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.2",
+            "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
+        },
+        "files": [
+            "config/packages/sensio_framework_extra.yaml"
+        ]
     },
     "sentry/sdk": {
         "version": "3.1.0"
@@ -376,6 +391,19 @@
     },
     "symfony/stopwatch": {
         "version": "v5.0.11"
+    },
+    "symfony/translation": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "2ad9d2545bce8ca1a863e50e92141f0b9d87ffcd"
+        },
+        "files": [
+            "config/packages/translation.yaml",
+            "translations/.gitignore"
+        ]
     },
     "symfony/translation-contracts": {
         "version": "v2.3.0"
